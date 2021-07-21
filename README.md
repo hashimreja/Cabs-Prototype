@@ -16,6 +16,9 @@ git clone https://github.com/hashimreja/solulabTask.git
 cd solulab task
 npm install
 npm start (for development)
+http://localhost:3000/api-doc for swagger api documentation
+Before running swagger run npm test to load the database with sample data.
+initially execute user login to get the auth token and authorize all the api's at global level and test the api's
 ```
 
 ### Testing 
@@ -23,5 +26,11 @@ npm start (for development)
 git clone https://github.com/hashimreja/solulabTask.git
 cd solulab task
 npm install
-npm test (for testing)
+npm test (for testing) and loading up the database with sample data
+```
+
+### Database Backup commands
+``` 
+mongodb backup:  mongodump --db mean --gzip --archive=solulab
+mongodb restore: mongorestore --gzip --archive=mean --db solulab
 ```
