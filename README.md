@@ -12,16 +12,16 @@
 
 ### Installation 
 ``` 
-git clone 
-cd soullab task
+git clone https://github.com/hashimreja/solulabTask.git
+cd solulab task
 npm install
 npm start (for development)
 ```
 
 ### Testing 
 ``` 
-git clone 
-cd soullab task
+git clone https://github.com/hashimreja/solulabTask.git
+cd solulab task
 npm install
 npm test (for testing)
 ```
